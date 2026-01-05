@@ -20,6 +20,7 @@ audio {
 body {
   background-color: #c4d2f5;
   font-family: "inter", sans-serif;
+  font-style: normal;
 }
 
 .player,
@@ -39,14 +40,12 @@ body {
 .player-track-title {
   color: #000;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
 .player-track-artist {
   color: #909090;
   font-size: 15px;
-  font-style: normal;
   font-weight: 800;
   line-height: normal;
 }
@@ -64,6 +63,12 @@ body {
   height: 6px;
 }
 
+.player-time {
+  color: #909090;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: normal;
+}
 .fa-circle-play,
 .fa-circle-pause {
   color: #e783bc;
