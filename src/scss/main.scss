@@ -12,3 +12,23 @@ img,
 video {
   display: block;
 }
+
+audio {
+  display: none;
+}
+
+body {
+  background-color: #c4d2f5;
+}
+
+.player,
+.player-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.player-progress {
+  display: flex;
+  flex-direction: row;
+}
